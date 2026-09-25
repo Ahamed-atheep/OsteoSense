@@ -60,7 +60,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, () => {
   console.log(`====================================================`);
-  console.log(`  OA Sentinel — Production Website Server Live!      `);
+  console.log(`  OsteoSense — Production Website Server Live!       `);
   console.log(`  Local URL:   http://localhost:${PORT}/            `);
   console.log(`  Serving:     ${DIST_DIR}                          `);
   console.log(`====================================================`);

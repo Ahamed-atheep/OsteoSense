@@ -188,7 +188,7 @@ export const AshaLogin = () => {
                 Connected to Gauhati Medical College & Hospital (GMCH)
               </h4>
               <p className="text-slate-600 text-[11px] mt-1 leading-relaxed">
-                When patients score 85+ (Referral Required), OA Sentinel automatically formats and generates official digital referral vouchers directly to the District Civil Hospital & GMCH Orthopedics OPD queue.
+                When patients score 85+ (Referral Required), OsteoSense automatically formats and generates official digital referral vouchers directly to the District Civil Hospital & GMCH Orthopedics OPD queue.
               </p>
             </div>
           </div>

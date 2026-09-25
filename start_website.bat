@@ -1,5 +1,5 @@
 @echo off
-title OA Sentinel - Production Website
-echo Starting OA Sentinel Production Web Server...
+title OsteoSense - Production Website
+echo Starting OsteoSense Production Web Server...
 node serve_production.js
 pause

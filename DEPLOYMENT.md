@@ -1,4 +1,4 @@
-# 🌐 OA Sentinel — Website Deployment & Hosting Guide
+# 🌐 OsteoSense — Website Deployment & Hosting Guide
 *(Static Website Format — No Git Push Required)*
 
 The project is compiled into an optimized, self-contained static website in the **`dist/`** directory. You can host and deploy this static bundle anywhere without requiring Git.
@@ -14,11 +14,8 @@ e:/Sih004/dist/
 ├── favicon.svg                  # SVG favicon (medical shield & pulse)
 ├── manifest.json                # PWA manifest for mobile installability
 └── assets/
-    ├── index-BVqzpdLO.css       # TailwindCSS stylesheet (gzipped: 7.5 kB)
-    ├── vendor-react-XnkWP7RY.js # React & React Router DOM chunk
-    ├── vendor-charts-CUxy17zC.js# Recharts SVG charting chunk
-    ├── vendor-icons-DhWTCXLD.js # Lucide React icon library chunk
-    └── index--uJGC41j.js        # OA Sentinel application logic
+    ├── index.css                # TailwindCSS stylesheet
+    └── index.js                 # OsteoSense application logic
 ```
 
 ---
@@ -74,11 +71,11 @@ A production multi-stage [Dockerfile](file:///e:/Sih004/Dockerfile) and [nginx.c
 
 1. Build the Docker container image:
    ```bash
-   docker build -t oa-sentinel .
+   docker build -t osteosense .
    ```
 2. Run the container locally or on a cloud server:
    ```bash
-   docker run -d -p 80:80 --name oa-sentinel-app oa-sentinel
+   docker run -d -p 80:80 --name osteosense-app osteosense
    ```
 3. Access the site at `http://localhost/` or your server IP.
 

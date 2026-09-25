@@ -1,8 +1,8 @@
-# OA Sentinel 🛡️
+# OsteoSense 🛡️
 ### Rule-Based Knee Health Screening & Triage System for Rural India
 *Smart India Hackathon (SIH 004) • Northeast India Knee Health Initiative*
 
-OA Sentinel is an offline-first, mobile-optimized clinical screening application designed for frontline **ASHA (Accredited Social Health Activists)** workers to identify early biomechanical risk indicators of Knee Osteoarthritis (OA) across rural and hilly regions of Northeast India.
+OsteoSense is an offline-first, mobile-optimized clinical screening application designed for frontline **ASHA (Accredited Social Health Activists)** workers to identify early biomechanical risk indicators of Knee Osteoarthritis (OA) across rural and hilly regions of Northeast India.
 
 ---
 
@@ -26,7 +26,7 @@ OA Sentinel is an offline-first, mobile-optimized clinical screening application
 - **Awareness & Prevention Hub (`/awareness`)**: Standalone, illustrated educational module accessible anytime covering Joint-Friendly Nutrition, Physical Activity, Occupational Ergonomics (tea garden, paddy, weaving, hill portering), and Posture.
 - **Grassroots Usability**:
   - **Offline-First**: Queued sync engine for disconnected field clinics.
-  - **Multilingual (8 Languages)**: English, Assamese (অসমীয়া), Bengali (বাংলা), Bodo (বড়ো), Khasi, Mizo, Manipuri (মেৈতৈলোন্), Nepali (नेपाली).
+  - **Multilingual (9 Languages)**: English, Hindi (हिन्दी), Assamese (অসমীয়া), Bengali (বাংলা), Bodo (बड़ो), Khasi, Mizo, Manipuri (মৈতৈলোন্), Nepali (नेपाली).
   - **Clinical Action Suite**: Digital GMCH Referral Vouchers, pre-formatted WhatsApp dispatch, and PDF export.
 - **District HQ Surveillance Portal (`/dashboard`)**: CMO/directorate epidemiological dashboard with stacked risk-by-block distribution charts, restricted access badge, and high-risk case registry.
 

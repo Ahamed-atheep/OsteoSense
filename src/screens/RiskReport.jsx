@@ -62,7 +62,7 @@ export const RiskReport = () => {
 
   const handleShareWhatsapp = () => {
     const text = encodeURIComponent(
-      `*OA Sentinel Field Report*\n` +
+      `*OsteoSense Field Report*\n` +
       `Patient: ${activePatient.name} (${activePatient.age}y, ${activePatient.gender})\n` +
       `Village: ${activePatient.village} (${activePatient.block})\n` +
       `Camp ID: ${activePatient.campId || 'Outreach'}\n` +

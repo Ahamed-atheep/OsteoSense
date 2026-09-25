@@ -43,7 +43,9 @@ export const Header = () => {
           </div>
           <div>
             <div className="flex items-center gap-1.5 sm:gap-2">
-              <span className="text-lg sm:text-xl font-black tracking-tight font-heading leading-none">OA Sentinel</span>
+              <span className="text-lg sm:text-xl font-black tracking-tight font-heading leading-none">
+                {getTranslation(language, 'appTitle') || 'OsteoSense'}
+              </span>
               <span className="bg-sky-400/25 backdrop-blur-sm text-[9px] sm:text-[10px] font-extrabold px-1.5 sm:px-2 py-0.5 rounded-full border border-sky-300/40 text-sky-100 uppercase tracking-wider">
                 v2.4 BLE
               </span>
@@ -99,7 +101,7 @@ export const Header = () => {
               to="/login"
               className="px-2.5 sm:px-3 py-1.5 bg-white/20 hover:bg-white/30 rounded-2xl text-[11px] sm:text-xs font-bold border border-white/30 text-white transition-all shadow-sm whitespace-nowrap"
             >
-              ASHA Login
+              {getTranslation(language, 'tabLogin')}
             </Link>
           )}
 

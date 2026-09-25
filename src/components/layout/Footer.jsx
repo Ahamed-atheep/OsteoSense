@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className="w-8 h-8 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/30">
               <Activity className="w-4 h-4 text-white" />
             </div>
-            <span className="font-extrabold text-white text-base font-heading">OA Sentinel</span>
+            <span className="font-extrabold text-white text-base font-heading">OsteoSense</span>
             <span className="px-2 py-0.5 rounded-full bg-blue-900/60 border border-blue-500/40 text-blue-300 text-[10px] font-bold">
               v2.4 BLE Production
             </span>
@@ -21,7 +21,7 @@ export const Footer = () => {
             Smart India Hackathon (SIH 004) • AI & Rule-Based Early Detection of Knee Osteoarthritis Risk Markers in the North Eastern Region. Purpose-built for frontline ASHA health activists and rural community outreach.
           </p>
           <div className="flex items-center gap-4 text-[11px] text-slate-500 pt-1">
-            <span>© 2026 OA Sentinel Initiative</span>
+            <span>© 2026 OsteoSense Initiative</span>
             <span>•</span>
             <span>National Health Mission Guidelines</span>
             <span>•</span>

@@ -68,7 +68,7 @@ export const AwarenessHub = () => {
 
           <div className="flex items-center gap-3 shrink-0">
             <div className="px-4 py-2 rounded-2xl bg-white/15 backdrop-blur-md border border-white/25 text-xs text-white">
-              <span className="font-bold text-sky-200">8 Northeast Languages</span>
+              <span className="font-bold text-sky-200">9 Supported Languages</span>
               <div className="text-[11px] text-white/80">Available offline for field workers</div>
             </div>
           </div>
