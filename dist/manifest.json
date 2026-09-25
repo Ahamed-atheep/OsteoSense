@@ -1,0 +1,17 @@
+{
+  "short_name": "OA Sentinel",
+  "name": "OA Sentinel — Rural Knee Health Screening",
+  "description": "Offline-first AI and Rule-Based Knee Health Screening and Triage tool for ASHA workers in rural India.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0284c7",
+  "theme_color": "#0284c7",
+  "display": "standalone",
+  "orientation": "portrait"
+}

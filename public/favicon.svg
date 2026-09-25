@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="28" fill="url(#grad)" />
+  <!-- Shield with Pulse Wave -->
+  <path d="M50 16 L76 28 C76 56 50 78 50 84 C50 78 24 56 24 28 Z" fill="none" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" />
+  <path d="M35 50 L44 50 L48 40 L53 62 L57 46 L60 50 L65 50" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
